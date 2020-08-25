@@ -1,6 +1,6 @@
-# Xsolla Login Javascript SDK
+# Xsolla Login JavaScript SDK
 
-Xsolla Login Javascript SDK allows you to integrate Xsolla Login Widget with your website.
+Xsolla Login JavaScript SDK allows you to integrate Xsolla Login Widget with your website.
 
 Currently SDK supports the following types of authorization:
 - via login/password;
@@ -14,13 +14,13 @@ This SDK is used on Windows 7, 8 and macOS.
 
 Follow these steps to integrate the widget onto your website. 
 
-1. [Connect](#step-1-connect-xsolla-login-javascript-sdk) Xsolla Login Javascript SDK. 
+1. [Connect](#step-1-connect-xsolla-login-javascript-sdk) Xsolla Login JavaScript SDK. 
 1. [Add](#step-2-add-the-widget-initialization-code) the widget initialization code. 
 1. [Choose](#step-3-choose-a-widget-placing) a widget placing on the website. 
 
-### Step 1. Connect Xsolla Login Javascript SDK
+### Step 1. Connect Xsolla Login JavaScript SDK
 
-Connect Xsolla Login Javascript SDK:
+Connect Xsolla Login JavaScript SDK:
 
 - **if the project uses Bower.** Launch the console and run the command
 
