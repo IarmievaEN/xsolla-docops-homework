@@ -103,5 +103,5 @@ I can’t find Login ID. Where is it?
 
 Where can I find the guide described full integration of Xsolla Login?
 
-*Answer*: Please, follow the [link to the integration guide.](https://www.google.com/url?q=http://developers.xsolla.com/doc/login&amp;sa=D&amp;ust=1597228765394000&amp;usg=AOvVaw0omWF7PtpIIcvJJ42ArQS6)
+*Answer*: Please follow the [link to the integration guide.](https://www.google.com/url?q=http://developers.xsolla.com/doc/login&amp;sa=D&amp;ust=1597228765394000&amp;usg=AOvVaw0omWF7PtpIIcvJJ42ArQS6)
 
