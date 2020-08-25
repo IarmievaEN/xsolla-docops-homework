@@ -22,13 +22,13 @@ Follow these steps to integrate the widget onto your website.
 
 Connect Xsolla Login JavaScript SDK:
 
-- **if the project uses Bower.** Launch the console and run the command
+- **if the project uses Bower,** launch the console and run the command
 
   ```shell
   bower install xsolla-login-js-sdk
   ```
 
-- **if the Bower is not installed.** Add the following code to the `head` tag of the web page where the widget will be placed
+- **if the Bower is not installed,** add the following code to the `head` tag of the web page where the widget will be placed
   
   ```html
   <script src="https://cdn.xsolla.net/xsolla-login-widget/sdk/2.1.1/xl.min.js"></script>
@@ -97,11 +97,7 @@ XL.AuthWidget(element_id, options);
 
 ## Problems
 
-I can’t find Login ID. Where is it?
+I can’t find Login ID. Where is it? <br>*Answer*: Please go to your **Publisher Account > Login settings > General settings > Login ID**.</br>
 
-*Answer*: Please go to your **Publisher Account > Login settings > General settings > Login ID**.
-
-Where can I find the guide described full integration of Xsolla Login?
-
-*Answer*: Please follow the [link to the integration guide.](https://www.google.com/url?q=http://developers.xsolla.com/doc/login&amp;sa=D&amp;ust=1597228765394000&amp;usg=AOvVaw0omWF7PtpIIcvJJ42ArQS6)
+Where can I find the guide described full integration of Xsolla Login? <br>*Answer*: Please follow the [link to the integration guide.](https://www.google.com/url?q=http://developers.xsolla.com/doc/login&amp;sa=D&amp;ust=1597228765394000&amp;usg=AOvVaw0omWF7PtpIIcvJJ42ArQS6)</br>
 
