@@ -24,19 +24,19 @@ Connect Xsolla Login JavaScript SDK:
 
 - **if the project uses Bower.** Launch the console and run the command
 
-```shell script
-bower install xsolla-login-js-sdk
-```
+  ```shell
+  bower install xsolla-login-js-sdk
+  ```
 
-- **if the Bower is not installed.** Add the following code to the **head** tag of the web page where the widget will be placed
+- **if the Bower is not installed.** Add the following code to the `head` tag of the web page where the widget will be placed
   
-```html
-<script src="https://cdn.xsolla.net/xsolla-login-widget/sdk/2.1.1/xl.min.js"></script>
-```
+  ```html
+  <script src="https://cdn.xsolla.net/xsolla-login-widget/sdk/2.1.1/xl.min.js"></script>
+  ```
 
 ### Step 2. Add the widget initialization code
 
-Add the widget initialization code to the **body** tag:
+Add the widget initialization code to the `body` tag:
 
 ```html
 <script type="text/javascript">
@@ -49,8 +49,8 @@ XL.init({
 
 | Parameter   | Type   | Description                                                                                                                           | Required                                              |
 |-------------|--------|---------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
-| projectId   | string | Login ID from Publisher Account.                                                                                                      | :heavy_check_mark:                                    |
-| callbackUrl | string | URL to redirect the user to after authentication. Must be identical to Callback URL specified in Publisher Account in Login settings. | :heavy_check_mark: (if there are several Callback URLs) |
+| `projectId`   | string | Login ID from Publisher Account.                                                                                                      | :heavy_check_mark:                                    |
+| `callbackUrl` | string | URL to redirect the user to after authentication. Must be identical to Callback URL specified in Publisher Account in Login settings. | :heavy_check_mark: (if there are several Callback URLs) |
 
 ### Step 3. Choose a widget placing
 
@@ -61,7 +61,7 @@ Choose a widget placing on the website:
 
 #### Fullscreen mode
 
-Add the button with an on-click event and the **XL.show()** function to the website
+Add the button with an on-click event and the `XL.show()` function to the website
 
 ```html
 <button onclick="XL.show()">Fullscreen widget</button>
@@ -71,7 +71,7 @@ The fullscreen mode will be closed when clicked outside the widget.
 
 #### Block of the page
 
-Add the block with widget to the **body** tag on the page and specify the block ID
+Add the block with widget to the `body` tag on the page and specify the block ID
 
 ```html
 <div id="xl_auth"></div>
@@ -91,9 +91,9 @@ XL.AuthWidget(element_id, options);
 
 | Parameter      | Type          | Description                                                                               | Required | Default    |
 |----------------|---------------|-------------------------------------------------------------------------------------------|----------|------------|
-|     options    |     object    |     Login Widget block settings. The object consists of the parameters listed   below.    | :x:      |     -      |
-|     width      |     number    |     Block width in pixels.                                                                | :x:      |     400    |
-|     height     |     number    |     Block height in pixels.                                                               | :x:      |     500    |
+|     `options`    |     object    |     Login Widget block settings. The object consists of the parameters listed   below.    | :x:      |     -      |
+|     `width`      |     number    |     Block width in pixels.                                                                | :x:      |     400    |
+|     `height`     |     number    |     Block height in pixels.                                                               | :x:      |     500    |
 
 ## Problems
 
